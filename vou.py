@@ -1,12 +1,11 @@
 
-web3_provider = Web3(HTTPProvider('https://mainnet.infura.io/v3/1c8e1333853b419f879ae4d9fc58cc6'))
+web3_provider = Web3(HTTPProvider('https://rinkeby.infura.io/v3/1c8e1333853b419f879ae4d9fc58cc61'))
 
 
-addresslist = ["0xbd0fc0e8245D099b751CF6437cc32385347F2251", "0xBaDd3C2cc7Dd18118E1e57da8fAb9D9585402705",
-                       "0x036e6D445B6fd7E1900d2574C201E662f1D51676"]
-amount = [25, 32, 10]
+addresslist = ["0xbd0fc0e8245D099b751CF6437cc32385347F2251"]
+amount = [25]
 to_addr = '0xbd0fc0e8245D099b751CF6437cc32385347F2251'
-from_addr = '0x00E49ef94dc7e798f4332e8E95303b24984F2c5e'
+from_addr = '0x19B6158e215Af4DBDF0a30744bE9C1f048e0E4a6'
 key = '0x4c0883a69102937d6231471b5dbb6204fe5129617082792ae468d01a3f362318'
 #
 transaction = {
