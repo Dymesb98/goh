@@ -14,7 +14,7 @@ transaction = {
     'value': 100,
     'gas': 200000,
     'gasPrice': 100000000,
-    'chainId': 42,
+    'chainId': 4,
     # 'nonce': w3.eth.getTransactionCount(from_addr)
     'nonce': web3_provider.eth.getTransactionCount(from_addr)
     }
